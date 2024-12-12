@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    th{
+        padding: 20px;
+    }
+    td{
+        padding: 15px;
+    }
+    tr{
+        background-color: rgb(11, 106, 184);
+    }
+    #mon{color: azure;}
+    .relax{ color: rgb(61, 179, 226);}
+    #cola{color: brown;}
+    .cake{color: fuchsia;}
+    </style>
+</head>
+
+<body>
+    <table border="1">
+        <caption>school</caption>
+        <tr>
+            <th scope="col">name</th>
+            <th scope="col">age</th>
+            <th scope="col">email</th>
+        </tr>
+        <tr>
+            <td>saba</td>
+            <td>19</td>
+            <td>saba@gmail.com</td>
+        </tr>
+        <tr>
+            <td>salome</td>
+            <td>20</td>
+            <td>salome@gmail.com</td>
+        </tr>
+        <tr>
+            <td>lika</td>
+            <td>18</td>
+            <td>lika@gmail.com</td>
+        </tr>
+        <tr>
+            <td>mari</td>
+            <td>20</td>
+            <td>mari@gmail.com</td>
+        </tr>
+        <tr>
+            <td>eka</td>
+            <td>22</td>
+            <td>eka@gmail.com</td>
+        </tr>
+
+    </table>
+    <table border="1" style="background-color: antiquewhite; margin: 30px 0px;">
+        <caption>agenda</caption>
+        <tr style="padding: 20px;">
+            <th></th>
+            <th id="mon">mon</th>
+            <th>tue</th>
+            <th>wen</th>
+            <th>thur</th>
+            <th>fri</th>
+            <th>sut</th>
+            <th>sun</th>
+        </tr>
+        <tr>
+            <td>morning</td>
+            <td colspan="3" class="relax">meeting</td>
+            <td class="relax">sleeping</td>
+            <td  class="relax">sleeping</td>
+            <td  class="relax">sleeping</td>
+            <td  class="relax">sleeping</td>
+        </tr>
+        <tr>
+            <td>afternoon</td>
+            <td rowspan="2">working</td>
+            <td>thinking</td>
+            <td>thinking</td>
+            <td>thinking</td>
+            <td colspan="3">walking</td>
+
+        </tr>
+        <tr>
+            <td>evening</td>
+            <td>boosting</td>
+            <td>boosting</td>
+            <td>boosting</td>
+            <td>boosting</td>
+            <td>boosting</td>
+            <td>boosting</td>
+        </tr>
+    </table>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>item name</th>
+                <th>quantity</th>
+                <th>price per item</th>
+                <th>total price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="cola">cola</td>
+                <td>7</td>
+                <td>3</td>
+                <td>
+                    <table border="1">
+                        <tr>
+                            <th>call1</th>
+                            <th>call2</th>
+                        </tr>
+                        <tr>
+                            <td>white</td>
+                            <tr>black</tr>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="cake">cake</td>
+                <td class="cake">5</td>
+                <td class="cake">2</td>
+                <td class="cake">10</td>
+            </tr>
+            <tr>
+                <td>ice-cream</td>
+                <td>10</td>
+                <td>3</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>beer</td>
+                <td>15</td>
+                <td>5</td>
+                <td>75</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr style="background-color: blue;text-align: end;color: aliceblue;">
+                <td colspan="4">
+                    total price:136
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
