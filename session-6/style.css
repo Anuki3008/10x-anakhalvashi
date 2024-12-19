@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: darkblue;
+}
+
+h2{
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 20px;
+    color: darkgreen;
+}
+
+p{
+    line-height: 1.5px;
+    font-size: 16px;
+}
+
+.Project1{
+    background-color: antiquewhite;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.project2{
+    background-color: bisque;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+}
+
+.project3{
+    background-color: cornsilk;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#about{
+    background-color: lightgray;
+}
+
+#skilss{
+    background-color: lightyellow;
+}
+
+nav li{
+    list-style-type: none; /*remove bullets */
+    padding: 0px; /* remove pedding */
+    margin: 0px; /* remove margins */
+    color: darkred;
+}
+
+#projects h3{ 
+    color: pink;
+    font-style: italic;
+}
+
+img[src] {
+    border: 2px solid black;
+    border-radius: 50%; 
+    width: 150px; 
+}
+
+nav a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+li::before{
+    content:  " ⭐ "
+
+}
