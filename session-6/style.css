@@ -20,7 +20,6 @@ h3{
 }
 
 p{
-    line-height: 1.5px;
     font-size: 16px;
 }
 
@@ -79,5 +78,4 @@ nav a:hover{
 
 li::before{
     content:  " ⭐ "
-
 }

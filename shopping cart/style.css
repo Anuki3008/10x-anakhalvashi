@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(#9E4D9A, #FFD8FD);
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", serif;
+    overflow: auto;
+    padding: 30px;
+}
+.content {
+    background-color: white;
+    padding: 48px 20px;
+    width: 430px;
+    border-radius: 30px;
+    display: flex;
+}
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.content-header img {
+    height: 20px;
+}
+.content-header h1 {
+    font-size: 20px;
+    
+}
+.space {
+    background-color: rgba(147, 71, 143, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.space div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.space img {
+    width: 80px;
+}
+.space h2 {
+    font-size: 14px;
+    font-weight: 500;
+
+   
+   
+}
+
+.font1 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #7D7878;
+}
+.space .price { 
+    font-weight: 600;
+    font-size: 16;
+}
+.space-wraper {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.content h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.price-details {
+    margin-top: 40px;
+    margin-bottom: 18px;
+}
+.price-item {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 5px;
+
+}
+.price-item .font2 {
+    color: #7D7878;
+    font-size: 14px;
+
+}
+.price-item.total {
+    margin-top: 22px;
+    margin-bottom: 35px;
+
+}
+button {
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #93478F;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+body {
+    background-color: #E5E5E5;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    background-color: white;
+    width: 416px;
+    border-radius: 16px;
+    display: flex;
+    justify-content:space-between;
+    
+
+}
+.note .avatar {
+    height: 40px;
+    margin: 8px;
+}
+.note {
+    display: flex;
+    align-items:center;
+    margin: 10.5px;
+    justify-content: flex-start;
+
+    
+   
+      
+    
+}
+h1 {
+    font-size: 16px;
+  
+}
+h2 { 
+    font-size: 16px;
+   
+}
+.content .more {
+    height: 24px;
+    margin: 8px;
+    justify-content:flex-end;
+    width: 24px;
+}
